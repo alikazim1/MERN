@@ -2,19 +2,19 @@ import React from "react";
 import linePlot from "./Img/workflow.png";
 import CodeIOBlock from "../Fundamentals/CodeIOBlock";
 import "./workflowFundamentals.css";
+
 import dataPreprocessing from "./Img/dataPreprocessing.png";
-import { data } from "autoprefixer";
-import Plot from "./Img/Plot.png";
-import PredPlot from "./Img/predPlot.png";
-import LinearModel from "./Img/linearModel.png";
-import plotPred from "./Img/plot_pred.png";
-import ModelBuild from "./Img/modelBuild.png";
-import PlotPrediction from "./Img/plotPrediction.png";
-import GraphPred from "./Img/graphPred.png";
-import Loss from "./Img/loss.png";
-import TrainingLoop from "./Img/trainingLoop.png";
-import PyTorchTestingLoop from "./Img/pytorchTestingLoop.png";
-import TrainingLoss from "./Img/trainingLoss.png";
+import plot from "./Img/Plot.png";
+import predPlot from "./Img/predPlot.png";
+import linearModel from "./Img/linearModel.png";
+import plot_pred from "./Img/plot_pred.png";
+import modelBuild from "./Img/modelBuild.png";
+import plotPrediction from "./Img/plotPrediction.png";
+import graphPred from "./Img/graphPred.png";
+import loss from "./Img/loss.png";
+import trainingLoop from "./Img/trainingLoop.png";
+import pytorchTestingLoop from "./Img/pytorchTestingLoop.png";
+import trainingLoss from "./Img/trainingLoss.png";
 
 const WorkflowFundamentals = () => {
   return (
