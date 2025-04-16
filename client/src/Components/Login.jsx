@@ -30,7 +30,7 @@ export const Login = () => {
     e.preventDefault(); // Prevent the default form submission behavior
     axios
       .post(
-        "http://localhost:3001/login",
+        "https://mern-backend-7ek3.onrender.com",
         { email, password },
         {
           withCredentials: true,
