@@ -9,7 +9,7 @@ const bcrypt = require("bcrypt");
 
 const UserModel = require("./model/user");
 const dotenv = require("dotenv");
-
+const PORT = process.env.PORT || 4000;
 dotenv.config();
 const app = express();
 app.use(express.json());
