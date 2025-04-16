@@ -13,7 +13,7 @@ import Workflow from "../assets/components/Pages/WorkflowFundamentals/workflowFu
 import ComputerVision from "../assets/components/Pages/ComputerVision/ComputerVison.jsx";
 import NeuralNetworksClassification from "../assets/components/Pages/NeuralNetworkClassification/neuralNetworkClassification.jsx";
 import CustomDatasets from "../assets/components/Pages/CustomDatasets/customDataSet.jsx";
-import GoingModular from "../assets/components/Pages/GoingModular/GoingModular.jsx";
+import GoingModular from "../assets/components/Pages/GoingModular/goingModular.jsx";
 import TransferLearning from "../assets/components/Pages/TransferLearning/transferLearning.jsx";
 
 const HomeLayout = () => (
