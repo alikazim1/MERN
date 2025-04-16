@@ -27,7 +27,7 @@ export const Signup = () => {
   const handleSignup = (e) => {
     e.preventDefault(); // Prevent default form submission
     axios
-      .post("http://localhost:3001/signup", { name, email, password })
+      .post("https://mern-backend-7ek3.onrender.com", { name, email, password })
       .then((result) => {
         if (result.status === 201) {
           console.log("User Created Successfully");
