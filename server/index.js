@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const session = require("express-session");
 const MongooseStore = require("connect-mongo");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const UserModel = require("./model/user");
 const dotenv = require("dotenv");
