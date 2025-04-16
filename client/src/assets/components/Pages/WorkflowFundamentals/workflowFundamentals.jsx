@@ -8,7 +8,7 @@ import plot from "./Img/Plot.png";
 import predPlot from "./Img/predPlot.png";
 import linearModel from "./Img/linearModel.png";
 import plot_pred from "./Img/plot_pred.png";
-import modelBuild from "./Img/modelBuild.png";
+import modelBuild from "./Img/modelbuild.png";
 import plotPrediction from "./Img/plotPrediction.png";
 import graphPred from "./Img/GraphPred.png";
 import loss from "./Img/loss.png";
