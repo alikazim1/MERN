@@ -15,7 +15,7 @@ import Workflow from "../Pages/WorkflowFundamentals/workflowFundamentals";
 import ComputerVision from "../Pages/ComputerVision/ComputerVison";
 import NeuralNetworksClassification from "../Pages/NeuralNetworkClassification/neuralNetworkClassification";
 import CustomDatasets from "../Pages/CustomDatasets/customDataSet";
-import GoingModular from "../Pages/GoingModular/GoingModular";
+import GoingModular from "../Pages/GoingModular/goingModular";
 import TransferLearning from "../Pages/TransferLearning/transferLearning";
 
 const Footer = () => {
