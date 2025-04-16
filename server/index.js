@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["https://mern-front-nfpz.onrender.com"], // Match the deployed frontend
+    origin: ["https://mern-fr-76zz.onrender.com"], // Match the deployed frontend
     methods: ["POST", "GET"],
     credentials: true,
   })
