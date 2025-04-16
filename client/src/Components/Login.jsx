@@ -30,7 +30,7 @@ export const Login = () => {
     e.preventDefault(); // Prevent the default form submission behavior
     axios
       .post(
-        "https://mern-backend-7ek3.onrender.com",
+        "https://mern-back-avq9.onrender.com",
         { email, password },
         {
           withCredentials: true,
@@ -39,7 +39,7 @@ export const Login = () => {
       .then((result) => {
         if (result.data === "Success") {
           axios
-            .get("https://mern-backend-7ek3.onrender.com", { withCredentials: true })
+            .get("https://mern-back-avq9.onrender.com", { withCredentials: true })
             .then((response) => {
               if (response.data.user) {
                 setIsLoggedIn(true); // Update the login state in context
