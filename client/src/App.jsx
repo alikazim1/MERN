@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/user", { withCredentials: true })
+      .get("https://mern-backend-7ek3.onrender.com", { withCredentials: true })
       .then((response) => {
         setIsLoggedIn(!!response.data.user);
       })
