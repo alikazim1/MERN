@@ -10,10 +10,10 @@ import linearModel from "./Img/linearModel.png";
 import plot_pred from "./Img/plot_pred.png";
 import modelBuild from "./Img/modelBuild.png";
 import plotPrediction from "./Img/plotPrediction.png";
-import graphPred from "./Img/graphPred.png";
+import graphPred from "./Img/GraphPred.png";
 import loss from "./Img/loss.png";
 import trainingLoop from "./Img/trainingLoop.png";
-import pytorchTestingLoop from "./Img/pytorchTestingLoop.png";
+import pytorchTestingLoop from "./Img/Pytorchtestingloop.png";
 import trainingLoss from "./Img/trainingLoss.png";
 
 const WorkflowFundamentals = () => {
