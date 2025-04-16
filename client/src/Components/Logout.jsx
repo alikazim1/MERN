@@ -14,7 +14,7 @@ export const Logout = () => {
   };
   const handleLogout = () => {
     axios
-      .post("https://mern-backend-7ek3.onrender.com", { withCredentials: true })
+      .post("https://mern-back-avq9.onrender.com", { withCredentials: true })
       .then((response) => {
         if (response.status === 200) {
           SetIsLoggedIn(false);
