@@ -39,7 +39,7 @@ export const Login = () => {
       .then((result) => {
         if (result.data === "Success") {
           axios
-            .get("http://localhost:3001/user", { withCredentials: true })
+            .get("https://mern-backend-7ek3.onrender.com", { withCredentials: true })
             .then((response) => {
               if (response.data.user) {
                 setIsLoggedIn(true); // Update the login state in context
