@@ -4,7 +4,7 @@ import CodeIOBlock from "../Fundamentals/CodeIOBlock";
 import "./workflowFundamentals.css";
 import dataPreprocessing from "./Img/dataPreprocessing.png";
 import { data } from "autoprefixer";
-import Plot from "./Img/plot.png";
+import Plot from "./Img/Plot.png";
 import PredPlot from "./Img/predPlot.png";
 import LinearModel from "./Img/linearModel.png";
 import plotPred from "./Img/plot_pred.png";
