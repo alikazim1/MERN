@@ -44,7 +44,9 @@ app.use(
       mongoUrl: process.env.MONGO_URI,
     }),
     cookie: {
-      maxAge: 24 * 60 * 60 * 1000, // 1 day
+      maxAge: 24 * 60 * 60 * 1000,
+      secure: true,         // Add this
+      sameSite: "none"      // Add this
     },
   })
 );
