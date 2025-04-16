@@ -117,3 +117,8 @@ app.post("/logout", (req, res) => {
     res.status(400).json({ error: "No session found" });
   }
 });
+
+app.get("/", (req, res) => {
+  res.send("Backend is live!");
+});
+
